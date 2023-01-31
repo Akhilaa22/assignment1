@@ -1,0 +1,7 @@
+name=input("enter your name:")
+language=input("your preffered language")
+if language=="spanish":print("Hola,"+name)
+elif language=="french": print("Bonjour," +name)
+elif language=="german": print("Hallo,"+ name)
+elif language=="Italian": print("Ciao,"+name)
+else: print("sorry language not supported")
